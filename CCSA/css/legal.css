@@ -1,0 +1,86 @@
+.legal {
+	width: 1200px;
+	height: 1269px;
+	margin: auto;
+	margin-top: 4px;
+}
+
+.legal_left {
+	width: 182px;
+	height: 1268px;
+	border-top: 1px solid rgb(247, 248, 248);
+	float: left;
+	background: rgb(247, 248, 248);
+}
+
+.legal_left ul {
+	margin-top: 50px;
+}
+
+.legal_left ul li {
+	text-align: center;
+	width: 183px;
+	height: 50px;
+	border-bottom: 1px solid rgb(220, 221, 221);
+	line-height: 50px;
+}
+
+.legal_left ul li:hover {
+	color: deepskyblue;
+	cursor: pointer;
+}
+
+.legal_top {
+	width: 1013px;
+	height: 51px;
+}
+
+.legal_right {
+	width: 1013px;
+	height: 1269px;
+	float: right;
+	background: #fff;
+}
+
+.legal_right_left {
+	width: 445.1px;
+	height: 49px;
+	border-bottom: 2px solid orange;
+	margin-left: 61px;
+	line-height: 49px;
+	float: left;
+}
+
+.legal_right_right {
+	width: 445.1px;
+	height: 49px;
+	border-bottom: 2px solid dodgerblue;
+	line-height: 49px;
+	float: left;
+}
+
+.legal_right_right img {
+	margin-left: 120px;
+}
+
+.legal_bottom {
+	width: 1013px;
+	height: 1150px;
+}
+
+.legal_bottom ul li {
+	width: 890.2px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid rgb(220, 221, 221);
+	margin-left: 77px;
+}
+
+.legal_bottom ul li span {
+	margin-left: 430px;
+}
+
+.legal_bottom ul li:hover {
+	color: red;
+	cursor: pointer;
+}

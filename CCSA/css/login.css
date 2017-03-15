@@ -1,0 +1,134 @@
+.nav_login{
+	width: 100%;
+	height: 97px;
+	background: #fff;
+	border-bottom: 4px solid #009cff;
+}
+.nav_login_main{
+	width: 1200px;
+	height: 97px;
+	line-height: 97px;
+	text-align: center;
+	margin: 0 auto;
+}
+.nav_login_main_img{
+	margin-top: 20px;
+}
+.login{
+	width: 100%;
+	height: 856px;
+	background: url(../img/pic-3.png) no-repeat center;
+}
+.login_main{
+	width: 1200px;
+	height: 852px;
+	margin: 0 auto;
+	background: #FFF;
+}
+.login_main_top{
+	width: 1200px;
+	height: 372px;
+	background: url(../img/pic-2.png);
+}
+.login_main_top_text{
+	width: 404px;
+	height: 118px;
+	margin-left:284px ;
+	margin-top: 124px;
+	float: left;
+}
+.login_main_top_text_tt{
+	width: 404px;
+	text-align: center;
+	line-height: 50px;
+	color: #012b79;
+	font-weight: bolder;
+}
+.login_main_login{
+	width: 280px;
+	height: 364px;
+	float: right;
+	margin-right: 29px;
+	background: #FFf;
+}
+.member_form{
+	width: 280px;
+	height: 364px;
+}
+.login_main_next{
+	width: 1200px;
+	height: 321px;
+}
+.login_main_next_contact{
+	width: 1040px;
+	height: 260px;
+	margin-top: 80px;
+	margin-left: 119px;
+}
+.login_main_next_li{
+	width: 260px;
+	height: 130px;
+	float: left;
+}
+.login_main_next_li_pic{
+	width: 72px;
+	height: 72px;
+	float: left;
+}
+.login_main_next_li_text1{
+	width: 160px;
+	height: 72px;
+	margin-left: 15px;
+	font-size: 14px;
+	line-height: 26px;
+	float: left;
+}
+.login_main_next_li_text2{
+	width: 260px;
+	font-size: 18px;
+	line-height: 50px;
+}
+.login_main_last{
+	width: 1200px;
+	height: 79px;
+}
+
+
+.member_form>p{
+	width: 100%;
+	height: 58px;
+	color: #012b79;
+	text-align: center;
+	line-height: 58px;
+	font-size: 18px;
+	border-bottom: 1px solid gray;
+}
+.member_form>span{
+	width: 78px;
+	height: 30px;
+	display: block;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 20px;
+	color:#595757;
+}
+.member_form>input{
+	width: 170px;
+	height: 30px;
+	background: #efefef;
+	float: left;
+	border:1px solid gainsboro;
+	margin-top: 20px;
+}
+
+.member_form>button{
+	width: 104px;
+	height: 35px;
+	margin-left: 15px;
+	background: #0083e9;
+	margin-top: 20px;
+	border-color: transparent;
+	border-radius: 5px;
+	color:#fff;
+}

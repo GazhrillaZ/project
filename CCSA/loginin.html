@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		
+		<div class="nav_login">
+			<div class="nav_login_main">
+				<img class="nav_login_main_img" src="img/logo.png"/>
+			</div>
+		</div>
+		
+		<div class="login">
+			<div class="login_main">
+				<div class="login_main_top">
+					<div class="login_main_top_text">
+						<img src="img/text-1.png"/>
+						
+						<div class="login_main_top_text_tt">
+							会员服务   品质享受
+						</div>
+					</div>
+					<div class="login_main_login">
+						<div class="finger">
+					<form action="" class="member_form">
+						<p>会员登录</p>
+						<span>用户名：</span><input type="text" />
+						<span>密码：</span><input type="text" />
+						<span>验证码：</span><input type="text" style="width: 80px;"/><img src="img/checkcode.png" style="margin-top: 20px;width: 90px;height: 31px;"/>
+						<button>登录</button>
+						<button>注册</button>
+						<button style="background: #fff;color:#009eef;border:1px solid #009eef">入会申请</button>
+						<button style="background: #009eef;color:#fff" id="fgp">忘记密码</button>
+						<p style="width: 100%;height: 30px;color: #012b79;text-align: center;line-height: 30px;background: #cbcbcb;font-size: 14px;margin-top: 10px;">您还不是协会会员，请先入会，再注册使用</p>
+					</form>
+				</div>
+					</div>
+				</div>
+				<div class="login_main_next">
+					<div class="login_main_next_contact">
+						<ul>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-21.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									法律法规数据权威展示、政策文件及时更新维护。
+								</div>
+								<div class="login_main_next_li_text2">
+									法律法规
+								</div>
+							</li>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-22.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									实时报道安全生产方针政策、工作部署、典型事故和经验做法等。
+								</div>
+								<div class="login_main_next_li_text2">
+									安全快讯
+								</div>
+							</li>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-23.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									上百个企业安全生产规章制度供参考。
+								</div>
+								<div class="login_main_next_li_text2">
+									安全生产制度
+								</div>
+							</li>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-24.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									最新国家标准及安全标准、有效行业标准和地方标准汇集。
+								</div>
+								<div class="login_main_next_li_text2">
+									标准规范
+								</div>
+							</li>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-25.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									近万种操作要点记录，规范的操作流程呈现。
+								</div>
+								<div class="login_main_next_li_text2">
+									操作规程
+								</div>
+							</li>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-26.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									全国优秀名师、海量规范精品课件汇聚。
+								</div>
+								<div class="login_main_next_li_text2">
+									网络课堂
+								</div>
+							</li>
+							<li class="login_main_next_li">
+								<div class="login_main_next_li_pic">
+									<img src="img/icon-27.png"/>
+								</div>
+								<div class="login_main_next_li_text1">
+									多类型事故汇集，上千个事故案例分享。
+								</div>
+								<div class="login_main_next_li_text2">
+									事故案例
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="login_main_last">
+					<img src="img/会员服务专区_03.png"/>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#fgp').click(function(){
+					console.log('1')
+					window.open('repassword.html');
+				})
+			})
+		</script>
+		
+		<div class="footer">
+			<div class="footer_last">
+				<div class="footer_last_main">
+					版权所有：浙江省化学品安全协会 此处填写备案号 技术支持：鼎易科技
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

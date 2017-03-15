@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=rNyPvf4LieTb1ZSAI5fBngFAhVrK8PMj"></script>
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/connectus.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header_barbar">
+				<div class="header_bar">
+					<div class="header_left">
+						<span class="header_text" style="color: #fff;">浙江省化学品安全协会欢迎您！</span>
+					</div>
+					<div class="header_right">
+						<span class="header_text header_deco">
+						<a href="" style="color: red;">注册</a>
+					</span>
+						<span class="header_text">
+						<a href="" style="color: #fff;">登录</a>
+					</span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="nav">
+			<div class="nav_main">
+				<div class="nav_logo">
+					<a href="index.html">
+						<img class="nav_logo_img" src="img/logo.png"/>
+					</a>
+				</div>
+				<ul class="nav_nav">
+					<li class="nav_li">
+						<a href="">协会介绍</a>
+						<ul class="nav_li_ul">
+							<li class="nav_li_span"></li>
+							<li class="nav_li_li">
+								<a href="">企业简介</a>
+							</li>
+							<li class="nav_li_li">
+								<a href="">协会章程</a>
+							</li>
+							<li class="nav_li_li">
+								<a href="">组织章程</a>
+							</li>
+							<li class="nav_li_li">
+								<a href="">会员名录</a>
+							</li>
+							<li class="nav_li_li">
+								<a href="">协会专家</a>
+							</li>
+							<li class="nav_li_li">
+								<a href="">入会申请</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav_li">
+						<a href="">协会工作</a>
+					</li>
+					<li class="nav_li">
+						<a href="">会员信息</a>
+					</li>
+					<li class="nav_li">
+						<a href="">行业动态</a>
+					</li>
+					<li class="nav_li">
+						<a href="">法律规范</a>
+					</li>
+					<li class="nav_li">
+						<a href="">事故案例</a>
+					</li>
+					<li class="nav_li">
+						<a href="">资料库</a>
+					</li>
+					<li class="nav_li">
+						<a href="">联系我们</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="carousel">
+			<div class="carousel_main">
+				<img src="img/img_bg.png" id="bg_img" />
+				<script type="text/javascript">
+					var bg = document.getElementById('bg_img');
+					var x = 1920;
+					var screend = -(x - 1200) / 2;
+
+					function bgmove() {
+
+						x = x - 10;
+						if(x < screend) {
+							clearInterval(si);
+
+						} else {
+							bg.style.marginLeft = x + "px";
+						}
+
+					}
+					bgmove();
+					var si = setInterval(bgmove, 5);
+				</script>
+			</div>
+		</div>
+
+		<div class="connect_outermain">
+			<div class="connect_main">
+				<div class="connect_map">
+					<div id="panorama"></div>
+	    <div id="normal_map"></div>
+	<script type="text/javascript">
+	//全景图展示
+	var panorama = new BMap.Panorama('panorama');
+	
+	panorama.setPosition(new BMap.Point(120.430, 30.200)); //根据经纬度坐标展示全景图
+	panorama.setPov({heading: -40, pitch: 6});
+
+	panorama.addEventListener('position_changed', function(e){ //全景图位置改变后，普通地图中心点也随之改变
+		var pos = panorama.getPosition();
+		map.setCenter(new BMap.Point(pos.lng, pos.lat));
+		map.enableScrollWheelZoom(true);
+		marker.setPosition(pos);
+	});
+	//普通地图展示
+	var mapOption = {
+			mapType: BMAP_NORMAL_MAP,
+			maxZoom: 15,
+			drawMargin:0,
+			enableFulltimeSpotClick: true,
+			enableHighResolution:true
+		}
+	
+	var map = new BMap.Map("normal_map", mapOption);
+	var testpoint = new BMap.Point(110.320032, 30.589666);
+	map.centerAndZoom(testpoint, 18);
+	var marker=new BMap.Marker(testpoint);
+	marker.enableDragging();
+	map.addOverlay(marker);  
+	map.enableScrollWheelZoom(true);
+	marker.addEventListener('dragend',function(e){
+		panorama.setPosition(e.point); //拖动marker后，全景图位置也随着改变
+		panorama.setPov({heading: -40, pitch: 6});}
+	);
+	</script>
+
+				</div>
+				<div class="connect_text">
+					<p>地址：杭州市体育场路596号西湖综合开发大楼6楼</p>
+					<p>电话：0571-86082681</p>
+					<p>手机：18268891111 </p>
+					<p>传真：0571-87965138</p>
+					<p>邮编：310007 </p>
+					<p>邮箱：zjhxpxh@163.com</p>
+					<p>信息部 电话：0571-56666502</p>
+					<p>培训部 电话：0571-86082681</p>
+					<p>办公室 电话：0571-87965138</p>
+					<p>咨询部 电话：0571-88268813</p>
+					<img src="img/img_ewm.png"/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="footer_contact">
+				<div class="footer_contact_main">
+					<div class="otherinside">
+						<div class="otherLeft">
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">协会介绍</a>
+								</li>
+								<li>
+									<a href="">协会简介</a>
+								</li>
+								<li>
+									<a href="">协会章程</a>
+								</li>
+								<li>
+									<a href="">知识机构</a>
+								</li>
+								<li>
+									<a href="">会员名单</a>
+								</li>
+								<li>
+									<a href="">协会专家</a>
+								</li>
+								<li>
+									<a href="">入会申请</a>
+								</li>
+							</ul>
+							<ul class="something">
+								<li>
+									<a href="">联系我们</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="otherRight">
+							<p style="margin-top: 0;">地址：杭州体育场路596号西湖综合开发大楼6楼</p>
+							<p>电话：0571-86082681 传真：0571-87965138</p>
+							<p>手机：18268891111 邮箱：zjhxpxh@163.com</p>
+							<img src="img/img_ewm.png" style="margin-top:10px ;" />
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer_last">
+				<div class="footer_last_main">
+					版权所有：浙江省化学品安全协会 此处填写备案号 技术支持：鼎易科技
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
