@@ -1,0 +1,13 @@
+$(function(){
+	var list=new Vue({
+		el:"section",
+		data:{
+			items:[
+				{img:"img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,total:9280,residue:306},
+				{img:"img/59280272034241.png",title:"iPad Pro 12.9英寸 32GWIFI版",percent:27,total:9280,residue:306},
+				{img:"img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,total:9280,residue:306},
+				{img:"img/59280272034241.png",title:"iPad Pro 12.9英寸 32GWIFI版",percent:27,total:9280,residue:306}
+			]
+		}
+	})
+})

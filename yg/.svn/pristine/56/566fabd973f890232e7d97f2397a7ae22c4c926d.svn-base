@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css"/>
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			开奖信息
+			<a href="" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<div class="prize_list">
+			<a href="">1.怎样参加和米云购</a>
+			<a href="">2.和米云购是如何计算幸运号码的</a>
+			<a href="">3.怎样参加和米云购</a>
+			<a href="">4.和米云购是如何计算幸运号码的</a>
+			<a href="">5.怎样参加和米云购</a>
+			<a href="">6.和米云购是如何计算幸运号码的</a>
+		</div>
+		<div class="bottom_fixed">
+			<ul>
+				<li><a href=""><img src="../img/index-light.png"/><p class="bottom_active">首页</p></a></li>
+				<li><a href=""><img src="../img/upcoming-grey.png"/><p>即将揭晓</p></a></li>
+				<li><a href=""><img src="../img/find-grey.png"/><p>发现</p></a></li>
+				<li><a href=""><img src="../img/cart-grey.png"/><p>购物车</p></a></li>
+				<li><a href=""><img src="../img/person-grey.png"/><p>个人中心</p></a></li>
+			</ul>
+		</div>
+		
+		
+	</body>
+</html>

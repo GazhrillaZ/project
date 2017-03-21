@@ -1,0 +1,31 @@
+$(function(){
+	var vm=new Vue({
+		el:".cartable",
+		data:{
+			items:[
+			{img:"img/59280272034241.png",title:"Apple iPhone6s 32G 颜色随机",num:1,num2:9280,num3:306,choice:true},
+			{img:"img/59280272034241.png",title:"Apple iPhone6s 32G 颜色随机",num:1,num2:9312,num3:312,choice:true},
+			{img:"img/59280272034241.png",title:"Apple iPhone6s 32G 颜色随机",num:1,num2:4123,num3:213,choice:true}
+			]
+		},
+		methods:{
+			add:function(index){
+				vm.items[index].num++;
+			},
+			minus:function(index){
+				if(vm.items[index].num>1){
+					vm.items[index].num--;
+				}
+				
+				
+			}
+		}
+	})
+	
+	/*$(".add").click(function(){
+		$(this).addClass("active").not(this).removeClass("active");
+		//$(this).css("border-color","red");
+		console.log($(this).index());
+		$("section>.cartable .quantity").eq($(this).index()).css("border-color","red");
+	})*/
+})

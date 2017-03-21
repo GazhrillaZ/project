@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/prodetail.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts1"><img src="img/icon-1.png"/></a>
+			<span class="top_sorts2">往期揭晓</span>
+		</header>
+			
+			<div class="pd_main_span_top">
+				
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			
+			<div class="wqjx">
+				<div class="wqjx-qh">
+					<p class="wqjx-left">期号:<span>303291670</span></p>
+					<p class="pp">（揭晓时间：2016-03-24 16:28:22.89）</p>
+				</div>
+				<div class="wqjx-winner">
+					<img src="img/img-touxiang1.png" alt="" />
+					<div class="wqjx-info">
+						<p>获奖者：<span class="sp-blue">134****3410</span></p>
+						<p>用户ID：303291670</p>
+						<p>幸运号码：<span class="sp">1000387</span></p>
+						<p>本期参与：<span class="sp">55</span>人次</p>
+					</div>
+				</div>
+				
+				<div class="wqjx-qh wqjx-qt">
+					<p class="wqjx-left">期号:<span>303291670</span></p>
+					<p class="pp">（揭晓时间：2016-03-24 16:28:22.89）</p>
+				</div>
+				<div class="wqjx-winner">
+					<img src="img/img-touxiang1.png" alt="" />
+					<div class="wqjx-info">
+						<p>获奖者：<span class="sp-blue">134****3410</span></p>
+						<p>用户ID：303291670</p>
+						<p>幸运号码：<span class="sp">1000387</span></p>
+						<p>本期参与：<span class="sp">55</span>人次</p>
+					</div>
+				</div>
+				
+				<div class="wqjx-qh wqjx-qt"">
+					<p class="wqjx-left">期号:<span>303291670</span></p>
+					<p class="pp">（揭晓时间：2016-03-24 16:28:22.89）</p>
+				</div>
+				<div class="wqjx-winner">
+					<img src="img/img-touxiang1.png" alt="" />
+					<div class="wqjx-info">
+						<p>获奖者：<span class="sp-blue">134****3410</span></p>
+						<p>用户ID：303291670</p>
+						<p>幸运号码：<span class="sp">1000387</span></p>
+						<p>本期参与：<span class="sp">55</span>人次</p>
+					</div>
+				</div>
+				
+				<div class="wqjx-qh wqjx-qt"">
+					<p class="wqjx-left">期号:<span>303291670</span></p>
+					<p class="pp">（揭晓时间：2016-03-24 16:28:22.89）</p>
+				</div>
+				<div class="wqjx-winner">
+					<img src="img/img-touxiang1.png" alt="" />
+					<div class="wqjx-info">
+						<p>获奖者：<span class="sp-blue">134****3410</span></p>
+						<p>用户ID：303291670</p>
+						<p>幸运号码：<span class="sp">1000387</span></p>
+						<p>本期参与：<span class="sp">55</span>人次</p>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

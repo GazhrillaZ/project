@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css"/>
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			积分说明
+			<a href="" class="top_return" onclick="javascript:history.back(-1)"><img src="../img/return.png" /></a>
+		</header>
+		<ul id="scoreDetail">
+			<li>
+				<span>用回行为</span><span style="color: #666666;">积分变化</span>
+			</li>
+			<li v-for = "item in detail"><span>{{item.behaviour}}</span><span>{{item.change}}</span></li>
+		</ul>
+	</body>
+	<script type="text/javascript">
+		var detail = new Vue({
+			el:"#scoreDetail",
+			data:{
+				detail:[
+				{behaviour:"每日签到",change:"+5"},
+				{behaviour:"上传图像",change:"+5"},
+				{behaviour:"绑定手机号码",change:"+5"},
+				{behaviour:"设置昵称",change:"+5"},
+				{behaviour:"幸运者晒单",change:"+5"},
+				]
+			}
+		})
+	</script>
+</html>

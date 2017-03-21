@@ -1,0 +1,17 @@
+
+.prize_list{
+	width: 100%;
+	height: auto;
+	margin-top: 0.57rem;
+}
+
+.prize_list>a{
+	width: 100%;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	text-indent: 0.1rem;
+	font-size: 0.15rem;
+	display: block;
+	color: #333333;
+	border-bottom: 1px solid #f0f0f0;
+}

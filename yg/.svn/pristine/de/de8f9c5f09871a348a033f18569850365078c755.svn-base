@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/prodetail.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts1"><img src="img/icon-1.png"/></a>
+			<img src="img/logo.png" class="top_logo"/>
+		</header>
+		
+		<div class="pd_main">
+			<div class="pd_main_toppic">
+				<img src="img/pd-pic-1.png"/>
+			</div>
+			<div class="pd_main_points">
+				<ul>
+					<li class="on">
+						<img src="img/icon-2.png"/>
+					</li>
+					<li>
+						<img src="img/icon-3.png"/>
+					</li>
+					<li>
+						<img src="img/icon-3.png"/>
+					</li>
+					<li>
+						<img src="img/icon-3.png"/>
+					</li>
+				</ul>
+			</div>
+			<div class="pd_main_wip">
+				<div class="pd_main_wip_fort" style="background: #ffba38;">
+					倒计时
+				</div>
+				<div class="pd_main_wip_text">
+					Apple iPhone6s Plus 64G 颜色随机  唯一的 不同就是处处不同
+				</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div>
+				<div class="soon-announce">
+				<div class="soon-time">
+					<div class="soon-img">
+						<img src="img/icon-5.png" alt="" />
+						<span>即将揭晓</span>
+					</div>
+					<span class="time">08:51:30</span>
+				</div>
+				<div class="qihao">
+					<span>期号:303291670</span>
+				</div>
+			</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pa_main_content">
+				<div class="introduce">
+				<div class="int-p intro">
+					<p>商品介绍</p>
+				    <a href="#"><img src="img/icon-4.png" alt="" />  </a> 
+				</div>
+			</div>
+				<div class="announce">
+				<div class="int-p">
+					<p>往期揭晓</p>
+				    <a href="#"><img src="img/icon-4.png" alt="" />   </a>
+				</div>
+				</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pd_main_part">
+				<div class="record-p">
+					<p>参与记录</p>
+				</div>
+				<div class="record-dream">
+					<div class="dream dream-red">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+					<div class="dream">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+					<div class="dream">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+					<div class="dream">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+				</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+		</div>
+		<div class="footer">
+			<span class="ing">新一期正在火热进行中...</span>
+			<a href="#"><span class="footer-join-two">立即参与</span></a>
+		</div>
+	</body>
+</html>

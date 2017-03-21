@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/myscore.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			我的积分
+			<a href="personal_index.html" class="top_return"><img src="../img/return.png" /></a>
+			<a href="">积分说明</a>
+		</header>
+		<div class="myscore_main">
+			<p>积分</p>
+			<a href="">兑换记录</a>
+			<p>688</p>
+			
+		</div>
+		<div class="myscore_tips">
+			<img src="../img/notice.png"/>
+			<p>疾风可用于兑换商品，去积分商城转转</p>
+			<img src="../img/blueright.png"/>
+		</div>
+		
+		<p class="score_log">积分记录</p>
+		
+		<ul class="score_logdetail">
+			<li>
+				<span>2016-06-01</span>
+				<span>购买商品100元</span>
+				<span>+100</span>
+			</li>
+			
+			<li>
+				<span>2016-06-01</span>
+				<span>购买商品100元</span>
+				<span>+100</span>
+			</li>
+			<li>
+				<span>2016-06-01</span>
+				<span>购买商品100元</span>
+				<span>+100</span>
+			</li>
+			<li>
+				<span>2016-06-01</span>
+				<span>购买商品100元</span>
+				<span>+100</span>
+			</li>
+		</ul>
+		
+		<p class="nomore">
+			没有更多数据了
+		</p>
+	</body>
+</html>

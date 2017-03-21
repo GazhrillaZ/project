@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/discover.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			发现
+		</header>
+		<section>
+			<div class="list" style="margin: 0.2rem 0;">
+				<a href="">
+					<div class="img">
+						<img src="../img/find_1.png"/>
+					</div>
+					<div class="text">
+						<p class="title">晒单分享</p>
+						<p class="content">没错就是我中的奖，你来咬我啊！</p>
+					</div>
+					<img src="../img/connect.png"/>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a href="">
+					<div class="img">
+						<img src="../img/medal.png"/>
+					</div>
+					<div class="text">
+						<p class="title">风云榜</p>
+						<p class="content">最热的商品，最幸运的中奖者都在这儿</p>
+					</div>
+					<img src="../img/connect.png"/>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a href="">
+					<div class="img">
+						<img src="../img/wallet.png"/>
+					</div>
+					<div class="text">
+						<p class="title">填写邀请码得现金</p>
+						<p class="content">邀请一个好友最高奖励10元，消费将获利更多</p>
+					</div>
+					<img src="../img/connect.png"/>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a href="">
+					<div class="img">
+						<img src="../img/lucky.png"/>
+					</div>
+					<div class="text">
+						<p class="title">幸运大转盘，100%有奖！</p>
+						<p class="content">新用户登录即可免费抽奖一次，惊喜等您来</p>
+					</div>
+					<img src="../img/connect.png"/>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a href="">
+					<div class="img">
+						<img src="../img/huh.png"/>
+					</div>
+					<div class="text">
+						<p class="title">免费参与寻宝</p>
+						<p class="content">新用户可以免费参与寻宝一次</p>
+					</div>
+					<img src="../img/connect.png"/>
+				</a>
+			</div>
+			
+			
+		</section>
+		<div class="bottom_fixed">
+			<ul>
+				<li><a href=""><img src="../img/index-grey.png"/><p>首页</p></a></li>
+				<li><a href=""><img src="../img/upcoming-grey.png"/><p>即将揭晓</p></a></li>
+				<li><a href=""><img src="../img/find-light.png"/><p class="bottom_active">发现</p></a></li>
+				<li><a href=""><img src="../img/cart-grey.png"/><p>购物车</p></a></li>
+				<li><a href=""><img src="../img/person-grey.png"/><p>个人中心</p></a></li>
+			</ul>
+		</div>
+	</body>
+</html>

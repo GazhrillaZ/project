@@ -1,0 +1,68 @@
+.sunok{
+	width: 100%;
+	height: 1.2rem;
+	margin-top: 0.43rem;
+	background: #fff;
+	padding-top: 0.3rem;
+}
+
+.sunok>img{
+	width: 0.6rem;
+	display: block;
+	margin: auto;
+}
+
+.sunok>p{
+	font-size: 0.1rem;
+	color: #f2473d;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+
+.double_btn{
+	width: 3rem;
+	height: 0.4rem;
+	margin: auto;
+	margin-top: 0.2rem;
+}
+
+.double_btn>a{
+	width: 1.45rem;
+	height: 100%;
+	display: block;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #fff;
+	background: #f2473d;
+	font-size: 0.15rem;
+	float: left;
+	border-radius: 0.1rem;
+}
+
+.double_btn>a:last-child{
+	float: right;
+}
+
+.share{
+	width: 100%;
+	min-height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 22222222;
+	display: none;
+}
+
+.sharemethod{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.sharemethod>img{
+	width: 100%;
+	display: block;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css" />
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<title></title>
+	</head>
+
+	<body>
+		<header class="top_fixed top_title">
+			晒单成功
+			<a href="" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<div class="sunok">
+			<img src="../img/nike.png" alt="" />
+			<p>恭喜您，晒单成功！</p>
+		</div>
+		<div class="double_btn">
+			<a href="">
+				去云购
+			</a>
+			<a href="" id="sharebtn">
+				分享领积分
+			</a>
+		</div>
+		
+		<div class="share">
+			<div class="sharemethod">
+				<img src="../img/share.png"/>
+			</div>
+		</div>
+	</body>
+    
+</html>

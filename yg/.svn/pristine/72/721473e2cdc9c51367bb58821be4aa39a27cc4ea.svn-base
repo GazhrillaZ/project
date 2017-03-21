@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css" />
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<title></title>
+	</head>
+
+	<body>
+		<header class="top_fixed top_title">
+			关于我们
+			<a href="personal_index.html" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<ul class="about_detail">
+			<li><span>版本号</span><span>V.1.1.1</span></li>
+			<li><span>官方网站</span><span>www.hemikeji.com</span></li>
+			<li><span>微信公众号</span><span>禾米寻宝</span></li>
+			<li><span>客服中心</span><span>0571-88888888</span></li>
+			<li><a href="suggest.html"><span>建议反馈</span><img src="../img/right.png"/></a></li>
+		</ul>
+	</body>
+
+</html>

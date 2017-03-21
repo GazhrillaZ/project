@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css" />
+		<!--<link rel="stylesheet" type="text/css" href="../css/signup.css"/>-->
+		<link rel="stylesheet" type="text/css" href="../css/wjj.css" />
+		<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<header class="top_fixed">
+			<a href=""></a>
+			注册
+		</header>
+		<section>
+			<form class="signup_form" action="" method="post">
+				<div>
+					手机号：
+					<input type="text" name="" id="mobile" />
+				</div>
+				<div>
+					验证码：
+					<input type="text" name="" id="confirm" style="width: 1rem;" />
+					<input type="button" name="" id="security" value="获取验证码" />
+				</div>
+				<div class="password">
+					密&nbsp;&nbsp;&nbsp;&nbsp;码：
+					<input type="password" name="" id="password1" />
+				</div>
+				<div>
+					邀请码：
+					<input type="text" name="" id="" />
+					<a href=""><img src="../img/yqm.png" /></a>
+				</div>
+				<input type="" value="注册" id="signup" style="text-align: center;"/>
+				<p>登录或注册即同意《
+					<a href="">禾米寻宝服务协议</a>》</p>
+			</form>
+		</section>
+
+		<script type="text/javascript">
+			$(function() {
+				var apiUrl = "http://120.55.86.40:82/yiyuanapi/";
+				$("#security").click(function() {
+					var mobile = $("#mobile").val();
+					$.ajax({
+						type: "post",
+						url: apiUrl + "member/sendCaptcha",
+						async: true,
+						data: {
+							mobile: mobile,
+							type:1
+						},
+						dataType: "json",
+						success: function(msg) {
+							console.log(msg);
+							var data = msg.data;
+						},
+						error: function(err) {
+							console.log(err)
+						}
+					});
+				})
+				
+				
+				$("#signup").click(function() {
+					var mobile = $("#mobile").val();
+				    var password1 = $("#password1").val();
+				    var confirm = $("#confirm").val();
+					$.ajax({
+						type: "post",
+						url: apiUrl + "member/register",
+						async: true,
+						data: {
+							mobile: mobile,
+							password: password1,
+							captcha: 666666
+						},
+						dataType: "json",
+						success: function(msg) {
+							if(msg.msg == "注册成功"){
+								window.location.href="../index/index.html";
+							}
+						},
+						error: function(err) {
+							console.log(err)
+						}
+					});
+				})
+
+			})
+		</script>
+	</body>
+
+</html>

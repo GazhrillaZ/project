@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../../css/c_all.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/normal.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts"><img src="img/Commodity-details2.png"/ style="width:0.1rem;height: 0.2rem;float: left;"></a>
+			<img src="img/Commodity-details1.png" class="top_logo"/ style="width: 0.7rem;height: 0.175rem;">
+		</header>
+		<img src="img/Commodity-details3.png"/ style="width: 100%;float: left;margin-top: 0.43rem;">
+		<div class="c_body7">
+			<div class="c_text11">iMac一体机 mk82ch/a 27英寸</div>
+			<div class="c_text12">2.2万</div><div class="c_text11" style="margin-top: 0.07rem;float: left;margin-left: 0rem;">积分</div>
+			<div class="c_text13">￥7500</div><div class="c_text13" style="float: right;text-decoration: none;margin-right: 0.15rem;">运费：包邮</div>
+		</div>
+		<div style="width: 100%;height: 0.15rem;background: #f0f0f0;float: left;"></div>
+		<div style="width: 100%;height: 0.4rem;font-size: 0.15rem;color: #373737;line-height: 0.4rem;padding-left: 0.1rem;float: left;background: #FFFFFF;">商品介绍</div>
+		<img src="img/Commodity-details4.png"/ style="width: 100%;float: left;">
+		<div class="c_body8">
+			<div style="width: 1rem;height: 0.25rem;float:left;margin-left: 0.1rem;margin-top: 0.16rem;border: 0.01rem solid #dddddd;">
+				<div style="width: 0.24rem;height: 0.24rem;float: left;font-size: 0.12rem;text-align: center;line-height: 0.24rem;border-right: 0.01rem solid #dddddd;color: #9e9e9e;">-</div>
+				 <div style="float: left;font-size: 0.12rem;text-align: center;line-height: 0.24rem;height: 0.24rem;width: 0.49rem;">10</div>
+				<div style="width: 0.24rem;height: 0.24rem;float: right;font-size: 0.12rem;text-align: center;line-height: 0.24rem;border-left: 0.01rem solid #dddddd;color: #9e9e9e;">+</div>
+			</div>
+			<div style="font-size: 0.12rem;color: #333333;padding-left: 0.1rem;height: 0.57rem;float: left;">
+				所需积分:
+			</div>
+			<div style="font-size: 0.12rem;color:red;padding-left: 0.1rem;height: 0.57rem;float: left;">
+				9999分
+			</div>
+			<div class="c_text14">立即兑换</div>
+		</div>
+	</body>
+</html>

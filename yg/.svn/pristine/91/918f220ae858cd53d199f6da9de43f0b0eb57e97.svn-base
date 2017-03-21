@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/prodetail.css"/>
+		<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		
+		
+		<header class="top_fixed">
+			<a href="" class="top_sorts1"><img src="../img/icon-1.png"/></a>
+			<span class="top_sorts2">商品详情</span>
+		</header>
+		
+		
+		<div class="pd_main">
+			<div class="pd_main_toppic">
+				<img src="../img/pd-pic-1.png"/>
+			</div>
+			<div class="pd_main_points">
+				<ul>
+					<li class="on">
+						<img src="../img/icon-2.png"/>
+					</li>
+					<li>
+						<img src="../img/icon-3.png"/>
+					</li>
+					<li>
+						<img src="../img/icon-3.png"/>
+					</li>
+					<li>
+						<img src="../img/icon-3.png"/>
+					</li>
+				</ul>
+			</div>
+			<div class="pd_main_wip">
+				<div class="pd_main_wip_fort">
+					进行中
+				</div>
+				<div class="pd_main_wip_text">
+					Apple iPhone6s Plus 64G 颜色随机  唯一的 不同就是处处不同
+				</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pd_main_rate">
+				<div class="issue">
+				<p class="issue-p iue">期号：303004566</p>
+				<p class="issue-p sch">开奖进度<span>86%</span></p>
+				<div class="issue-wid">
+					<span class="wid-left"></span>
+					<span class="wid-right"></span>
+				</div>
+				<div class="count">
+					<p class="issue-money">总需7280</p>
+					<p class="issue-count">剩余<span class="font">2906</span></p>
+				</div>
+			</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pa_main_content">
+				<div class="introduce">
+				<div class="int-p intro">
+					<p>商品介绍</p>
+				    <a href="#"><img src="../img/icon-4.png" alt="" />  </a> 
+				</div>
+			</div>
+				<div class="announce">
+				<div class="int-p">
+					<p>往期揭晓</p>
+				    <a href="#"><img src="../img/icon-4.png" alt="" />   </a>
+				</div>
+				</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pd_main_part">
+				<div class="record-p">
+					<p>参与记录</p>
+				</div>
+				<div class="record-dream">
+					<div class="dream dream-red">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+					<div class="dream">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+					<div class="dream">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+					<div class="dream">
+						<p class="dream-p">梦想坚持<span> 浙江省杭州市 IP：117.136.61.52 </span></p>
+						<p class="peo-count">参与了10人次    <span>2016-03-24 11:20:41.899</span> </p>
+					</div>
+				</div>
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+		</div>
+		<div class="footer">
+			<span class="footer-shop">加入购物车</span>
+			<a href="#"><span class="footer-join">立即参与</span></a>
+		</div>
+		
+		
+		<div class="pd_bland">
+			<div class="pd_bland_buynow">	
+				<div class="pd_bland_buynow_content">
+					<div class="pd_bland_buynow_content_first">
+						
+					</div>
+					<div class="pd_bland_buynow_content_second">
+						参与次数
+					</div>
+					<div class="pd_bland_buynow_content_third">
+						<div class="pd_bland_buynow_content_third_math" id="pd_bland_reduce">
+							-
+						</div>
+						<div class="pd_bland_buynow_content_third_main">
+							10
+						</div>
+						<div class="pd_bland_buynow_content_third_math" id="pd_bland_add">
+							+
+						</div>
+					</div>
+					<div class="pd_bland_buynow_close">
+						<img src="../img/icon-7.png"/>
+					</div>
+				</div>
+				<div class="pd_bland_buynow_submit">
+					立即购买
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".footer-join").click(function(){
+					$(".pd_bland").show();
+				});
+				$(".pd_bland_buynow_close").click(function(){
+					$(".pd_bland").hide();
+				})
+				
+				var x = 10;
+				$("#pd_bland_reduce").click(function(){
+					if (x>1) {
+						x--;
+					console.log(x);
+					$(".pd_bland_buynow_content_third_main").html(x)
+					}
+				})
+				
+				$("#pd_bland_add").click(function(){
+					x++;
+					console.log(x);
+					$(".pd_bland_buynow_content_third_main").html(x)
+				})
+			})
+		</script>
+	</body>
+</html>

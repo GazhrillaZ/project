@@ -1,0 +1,59 @@
+.cloudshop_good{
+	width: 100%;
+	height: 0.885rem;
+	background: #FFFFFF;
+	padding-top: 0.19rem;
+	margin-top: 0.43rem;
+	margin-bottom: 0.15rem;
+}
+
+.cloudshop_good>p{
+	text-indent: 0.1rem;
+	margin-bottom: 0.1rem;
+	font-size: 0.12rem;
+	color: #666666;
+}
+
+.cloudshop_good>p:first-child{
+	color: #333333;
+	font-size: 0.14rem;
+}
+
+.cloudshop_good>p>span{
+	color: #f5766c;
+}
+
+.mynumbers{
+	width: 100%;
+	height:2.8rem;
+	background: #fff;
+}
+
+.mynumbers>p{
+	width: 100%;
+	height: 0.42rem;
+	line-height: 0.42rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #333333;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.mynumbers>ul>li{
+	width: 100%;
+	height: 1.1rem;
+	text-indent: 0.1rem;
+}
+
+.mynumbers>ul>li>p{
+	font-size: 0.14rem;
+	color: #373737;
+	line-height: 0.22rem;
+	font-weight: bold;
+}
+
+.mynumbers>ul>li>p:first-child{
+	font-size: 0.1rem;
+	font-weight: normal;
+	line-height: 0.26rem;
+}

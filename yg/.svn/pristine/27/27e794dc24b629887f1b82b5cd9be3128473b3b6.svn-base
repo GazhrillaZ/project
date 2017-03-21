@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iphone.css"/>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iphone.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="#" onClick="javascript :history.back(-1);"></a>
+			手机平板
+		</header>
+		<section>
+			<div class="list" v-for="(item,index) in items">
+				<a href="">
+					<div class="list_left">
+						<img v-bind:src="item.img"/>
+					</div>
+					<div class="list_mid">
+						<p>{{item.title}}</p>
+						<p>揭晓进度<span class="blue">{{item.percent}}%</span></p>
+						<div class="barbox">
+							<div class="bar"></div>
+						</div>
+						<span style="width: 57%;">总需{{item.total}}人次</span>
+						<span>剩余<span class="blue">{{item.residue}}</span>人次</span>
+					</div>
+					<button>立即购买</button>
+				</a>
+			</div>
+			
+		</section>
+	</body>
+</html>

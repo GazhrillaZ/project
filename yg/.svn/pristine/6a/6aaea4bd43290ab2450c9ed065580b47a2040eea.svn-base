@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="../css/messagelist.css" />
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<title></title>
+	</head>
+
+	<body>
+		<header class="top_fixed top_title">
+			消息列表
+			<a href="" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<ul class="messagelist">
+			<li>
+				<a href="">
+					<img src="../img/redshao.png" />
+					<span>2016年8月第一波活动正式开始啦！</span>
+					<img src="../img/right.png" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="">
+					<img src="../img/redshao.png" />
+					<span>2016年8月第一波活动正式开始啦！</span>
+					<img src="../img/right.png" />
+				</a>
+			</li>
+			
+			<li>
+				<a href="">
+					<img src="../img/redshao.png" />
+					<span>2016年8月第一波活动正式开始啦！</span>
+					<img src="../img/right.png" />
+				</a>
+			</li>
+
+		</ul>
+	</body>
+
+</html>

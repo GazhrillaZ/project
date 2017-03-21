@@ -1,0 +1,95 @@
+header{
+	font-size: 0.18rem;
+	line-height: 0.43rem;
+	color: #fff;
+	text-align: center;
+}
+
+header>a{
+	display: block;
+    position: absolute;
+    width: 0.14rem;
+    height: 0.44rem;
+    background: url(../img/return.png) no-repeat left center;
+    background-size: 0.1rem;
+    margin-left: 0.1rem;
+}
+
+section{
+	margin-top: 0.43rem;
+	width: 100%;
+	border-top: 1px solid #f8f8f8;
+	box-sizing: border-box;
+}
+
+section>form{
+	width: 2.9rem;
+	height: auto;
+	margin: 0.28rem auto 0;
+}
+
+section>form>div{
+	width: 100%;
+	height: 0.4rem;
+	background: #fff;
+	border-bottom: 1px solid #e2e2e2;
+	box-sizing: border-box;
+	font-size: 0.15rem;
+	line-height: 0.4rem;
+	color: #333;
+	padding-left: 0.12rem;
+}
+
+section>form>div>input{
+	border: none;
+	height: 0.2rem;
+	outline: none;
+}
+
+section>form>input{
+	width: 100%;
+	height: 0.4rem;
+	display: block;
+	margin-top: 0.15rem;
+	background: #f2473d;
+	border: none;
+	color: #FFFFFF;
+	border-radius: 0.075rem;
+	font-size: 0.15rem;
+}
+
+section>form>div>#security{
+	width: 0.92rem;
+	height: 0.3rem;
+	background: #f2473d;
+	float: right;
+	margin-top: 0.05rem;
+	margin-right: 0.05rem;
+	color: #fff;
+	font-size: 0.15rem;
+	text-align: center;
+	border-radius: 0.05rem;
+}
+
+section>form>div>a{
+	float: right;
+	margin-top: 0.05rem;
+	margin-right: 0.05rem;
+}
+
+section>form>div>a>img{
+	width: 0.4rem;
+}
+
+section>form>p{
+	width: 100%;
+	color: #999999;
+	font-size: 0.1rem;
+	display: block;
+	margin-top: 0.1rem;
+	text-align: center;
+}
+
+section>form>p>a{
+	color: #00a0e9;
+}

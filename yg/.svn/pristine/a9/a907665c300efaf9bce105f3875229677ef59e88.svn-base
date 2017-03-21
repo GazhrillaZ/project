@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/prodetail.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts1"><img src="img/icon-1.png"/></a>
+			<span class="top_sorts2">计算详情</span>
+		</header>
+			
+			<div class="pd_main_span_top">
+				
+			</div>
+			<div class="pd_main_span">
+				
+			</div>
+			
+			<div class="cal-gs">
+				<div class="gongshi">
+					<p class="gs-p">计算公式</p>
+				    <p class="gs-pp">【数值A÷商品所需人次】取余数+10000001 </p>
+				</div>
+			</div>
+			
+			<div class="pd_main_span">
+				
+			</div>
+			
+			<div class="shuzhi">
+				<p class="sz-top">数值A</p>
+				<p class="sz-bottom">=截止该商品最后售空时间最后50条全站参与记录 <span>=789101112</span></p>
+			</div>
+			
+			<div class="result">
+				<p class="cal-res">计算结果</p>
+				<p class="res-hm"> 幸运号码：<span>10000054</span></p>
+			</div>
+			
+			<div class="pd_main_span">
+				
+			</div>
+			
+			<div class="shop-time">
+				<p class="time-p">
+					<span class="p-time">云购时间</span>
+					<span class="p-aut">用户账号</span>
+				</p>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+				<div class="yungou yg">
+					<p class="yg-time">2016-03-24 18:11:02:168  <span>->141512125</span></p>
+					<p class="yg-zh">137****6905</p>
+				</div>
+			</div>
+	</body>
+</html>

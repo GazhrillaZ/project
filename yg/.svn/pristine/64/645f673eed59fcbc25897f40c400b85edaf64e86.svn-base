@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../../css/c_all.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/normal.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts"><img src="../../img/Exchange success2.png"/ style="width:0.1rem;height: 0.2rem;float: left;"></a>
+			<img src="../../img/Exchange success1.png" class="top_logo"/ style="width: 0.7rem;height: 0.175rem;">
+		</header>
+		<div style="height: 1.49rem;width: 100%;text-align: center;float: left;margin-top: 0.43rem;">
+			<img src="../../img/Exchange success3.png"/ style="height: 0.6rem;width: 0.6rem;display: block;margin: auto;margin-top: 0.3rem;">
+			<div style="color: #333333;font-size: 0.14rem;margin-top: 0.15rem;">恭喜你,兑换成功</div>
+		</div>
+		<div class="c_body9">
+			继续兑换
+		</div>
+		<div class="c_body9">
+			查看兑换记录
+		</div>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			物流信息
+			<a href="prizelog.html" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<div class="trans_detail">
+			<p>发货时间：2016-07-15</p>
+			<p>物流公司</p>
+			<p>快递单号：754612334545</p>
+		</div>
+	</body>
+</html>

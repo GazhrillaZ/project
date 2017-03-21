@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iphone.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="#" onClick="javascript :history.back(-1);"></a>
+			手机平板
+		</header>
+		<section>
+			<div class="list">
+				<a href="">
+					<div class="list_left">
+						<img src="../img/59280272034241.png"/>
+					</div>
+					<div class="list_mid">
+						<p>Apple iPhone6s 16g颜色随机</p>
+						<p>揭晓进度<span class="blue">78%</span></p>
+						<div class="barbox">
+							<div class="bar"></div>
+						</div>
+						<span style="width: 57%;">总需9280人次</span>
+						<span>剩余<span class="blue">306</span>人次</span>
+					</div>
+					<button>立即购买</button>
+				</a>
+			</div>
+			<div class="list">
+				<a href="">
+					<div class="list_left">
+						<img src="../img/59280272034241.png"/>
+					</div>
+					<div class="list_mid">
+						<p>Apple iPhone6s 16g颜色随机</p>
+						<p>揭晓进度<span class="blue">78%</span></p>
+						<div class="barbox">
+							<div class="bar"></div>
+						</div>
+						<span style="width: 57%;">总需9280人次</span>
+						<span>剩余<span class="blue">306</span>人次</span>
+					</div>
+					<button>立即购买</button>
+				</a>
+			</div>
+			<div class="list">
+				<a href="">
+					<div class="list_left">
+						<img src="../img/59280272034241.png"/>
+					</div>
+					<div class="list_mid">
+						<p>Apple iPhone6s 16g颜色随机</p>
+						<p>揭晓进度<span class="blue">78%</span></p>
+						<div class="barbox">
+							<div class="bar"></div>
+						</div>
+						<span style="width: 57%;">总需9280人次</span>
+						<span>剩余<span class="blue">306</span>人次</span>
+					</div>
+					<button>立即购买</button>
+				</a>
+			</div>
+			<div class="list">
+				<a href="">
+					<div class="list_left">
+						<img src="../img/59280272034241.png"/>
+					</div>
+					<div class="list_mid">
+						<p>Apple iPhone6s 16g颜色随机</p>
+						<p>揭晓进度<span class="blue">78%</span></p>
+						<div class="barbox">
+							<div class="bar"></div>
+						</div>
+						<span style="width: 57%;">总需9280人次</span>
+						<span>剩余<span class="blue">306</span>人次</span>
+					</div>
+					<button>立即购买</button>
+				</a>
+			</div>
+		</section>
+	</body>
+</html>

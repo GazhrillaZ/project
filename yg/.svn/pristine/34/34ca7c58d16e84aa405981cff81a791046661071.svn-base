@@ -1,0 +1,42 @@
+.prizelog_list{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.43rem;
+}
+
+.prizelog_list>li{
+	width: 100%;
+	height: 1.275rem;
+	padding-top: 0.2rem;
+	background: green;
+}
+.prize_left,.prize_middle,.prize_right{
+	height: 1.12rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.prize_left{
+	width: 0.56rem;
+	background: red;
+	line-height: 0.84rem;
+}
+
+.prize_left>img{
+	width: 100%;
+}
+
+.prize_middle{
+	width: 1.70rem;
+	background: blue;
+}
+.prize_middle>p{
+	font-size: 0.11rem;
+	color:#373737;
+	line-height: 0.19rem;
+}
+
+.prize_right{
+	width: 0.575rem;
+    background: yellow;
+}

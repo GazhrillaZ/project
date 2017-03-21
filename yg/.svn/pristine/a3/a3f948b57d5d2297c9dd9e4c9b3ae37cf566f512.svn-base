@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			云购详情
+			<a href="personal_index.html" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<div class="cloudshop_good">
+			<p>苹果Apple Ipad Pro 9.7英寸 32GB 颜色随机</p>
+			<p>期号：5453534354</p>
+			<p>本期参与：<span>55</span>人次</p>
+		</div>
+		
+		<div class="mynumbers">
+			<p>我的所有夺宝号码</p>
+			<ul>
+				<li>
+					<p>2016-03-24 12:34:32.34</p>
+					<p>12121211  21212143  12121234  12123232 </p>
+					<p>12121211  21212143  12121234  12123232 </p>
+					<p>12121211  21212143  12121234  12123232 </p>
+					<p>12121211  21212143  12121234  12123232 </p>
+				</li>
+				
+				<li>
+					<p>2016-03-24 12:34:32.34</p>
+					<p>12121211  21212143  12121234  12123232 </p>
+					<p>12121211  21212143  12121234  12123232 </p>
+					<p>12121211  21212143  12121234  12123232 </p>
+					<p>12121211  21212143  12121234  12123232 </p>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+
+

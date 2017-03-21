@@ -1,0 +1,62 @@
+header{
+	font-size: 0.18rem;
+	line-height: 0.43rem;
+	color: #fff;
+	text-align: center;
+}
+
+section{
+	margin-top: 0.43rem;
+	width: 100%;
+	border-top: 1px solid #f8f8f8;
+	box-sizing: border-box;
+}
+
+section>.list{
+	width: 100%;
+    height: 0.6rem;
+    background: #fff;
+    border-bottom: 1px solid #dadada;
+}
+
+section>.list>a{
+	display: block;
+    width: 90%;
+    height: 0.6rem;
+    margin: 0 auto;
+}
+
+section>.list>a>.img{
+	width: 19%;
+    height: 0.6rem;
+    float: left;
+}
+
+section>.list>a>.img>img{
+	width: 0.4rem;
+    margin-top: 0.1rem;
+    display: block;
+}
+
+section>.list>a>.text{
+	width: 76%;
+    height: 0.6rem;
+    float: left;
+}
+
+section>.list>a>.text>.title{
+	font-size: 0.15rem;
+	padding-top: 0.1rem;
+    color: #333;
+}
+
+section>.list>a>.text>.content{
+	font-size: 0.1rem;
+	color: #666;
+}
+
+section>.list>a>img{
+	width: 0.1rem;
+    margin-top: 0.25rem;
+    float: right;
+}

@@ -1,0 +1,237 @@
+header{
+	font-size: 0.18rem;
+	line-height: 0.43rem;
+	color: #fff;
+	text-align: center;
+}
+
+section{
+	margin-top: 0.43rem;
+	width: 100%;
+	border-top: 1px solid #f8f8f8;
+	box-sizing: border-box;
+}
+
+section>.empty{
+	width: 1.26rem;
+	height: 1.87rem;
+	margin: auto;
+	margin-top: 1.05rem;
+}
+
+section>.empty>img{
+	width: 0.5rem;
+	margin: auto;
+	display: block;
+}
+
+section>.empty>span{
+	display: block;	
+	width: 100%;
+	margin-top: 0.12rem;
+	font-size: 0.16rem;
+    line-height: 0.24rem;
+    color: #666666;
+    text-align: center;
+}
+
+section>.empty>a{
+    width: 1.26rem;
+    height: 0.35rem;
+    background: #F2473D;
+    margin: auto;
+    margin-top: 0.3rem;
+    display: block;
+    color: #fff;
+    line-height: 0.35rem;
+    text-align: center;
+    font-size: 0.16rem;
+    border-radius: 0.05rem;	
+}
+
+section>.cartable{
+	width: 100%;
+}
+
+section>.cartable>.itembox{
+	width: 100%;
+	height: 0.78rem;
+	background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 0.06rem;
+    position: relative;
+    padding: 0.19rem 0;
+}
+
+section>.cartable>.itembox>.item{
+	width: 93.75%;
+	height: 100%;
+	margin: auto;
+}
+
+section>.cartable>.itembox>.item>.check{
+	display: block;
+    width: 0.17rem;
+    height: 0.17rem;
+    cursor: pointer;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+    float: left;
+    background: url(../img/calselno.png) no-repeat #fff;
+    background-size: 17px 17px;
+}
+
+section>.cartable>.itembox>.item>.img{
+	width: 0.74rem;
+    height: 0.74rem;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    margin-right: 0.10rem;
+    display: block;
+    float: left;
+}
+
+section>.cartable>.itembox>.item>.img>img{
+	width: 0.74rem;
+    height: 0.74rem;
+    display: block;
+}
+
+section>.cartable>.itembox>.item>.content{
+	width: 1.87rem;
+	height: 0.78rem;
+	float: left;
+}
+
+section>.cartable>.itembox>.item>.content>.title{
+	color: #333333;
+    font-size: 0.14rem;
+    line-height: 0.14rem;
+    font-weight: normal;
+    height: 0.14rem;
+    overflow: hidden;
+    display: block;
+}
+
+section>.cartable>.itembox>.item>.content>.num{
+	height: 0.25rem;
+    overflow: hidden;
+    margin: 0.1rem 0;
+}
+
+section>.cartable>.itembox>.item>.content>.num>input{
+	width: 0.25rem;
+	height: 0.25rem;
+	float: left;
+    color: #9e9e9e;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 0.12rem;
+    text-align: center;
+    outline: none;
+}
+
+section>.cartable>.itembox>.item>.content>.num>.btn{
+	float: right;
+    width: 0.64rem;
+    background: #F2473D;
+    height: 0.25rem;
+    color: #fff;
+    font-size: 0.12rem;
+    text-align: center;
+    line-height: 0.24rem;
+    border-radius: 0.13rem;
+    cursor: pointer;
+}
+
+section>.cartable>.itembox>.item>.content>p{
+	font-size: 0.09rem;
+	line-height: 0.18rem;
+	color: #999999;
+	display: block;
+	float: left;
+}
+
+section>.cartable>.itembox>.item>.content>.first{
+	width: 0.88rem;
+}
+
+section>.cartable>.itembox>.item>.content>p>span{
+	color: #00a0e9;
+}
+
+section>.cartable>.total{
+	width: 100%;
+	height: 0.4rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0.5rem;
+}
+
+section>.cartable>.total>.check{
+	width: 0.17rem;
+	height: 0.17rem;
+	margin: 0.11rem 0.1rem;
+	display: block;
+	float: left;
+}
+
+section>.cartable>.total>.choose{
+	font-size: 0.14rem;
+	line-height: 0.4rem;
+	float: left;
+}
+
+section>.cartable>.total>p{
+	font-size: 0.12rem;
+	line-height: 0.4rem;
+	float: left;
+	margin-left: 0.13rem;
+}
+
+section>.cartable>.total>p>span{
+	color: #F2473D;
+}
+
+section>.cartable>.total>div{
+	font-size: 0.12rem;
+	line-height: 0.4rem;
+	color: #fff;
+	text-align: center;
+	float: right;
+	height: 100%;
+}
+
+section>.cartable>.total>.account{
+	width: 0.83rem;
+	background: #f2473d;
+}
+
+section>.cartable>.total>.del{
+	width: 0.78rem;
+	background: #ff9402;
+}
+
+section>.cartable>.nothing{
+	position: fixed;
+    left: 50%;
+    bottom: 50%;
+    color: #fff;
+    border-radius: 0.05rem;
+    width: 2.56rem;
+    height: 0.46rem;
+    margin-left: -1.28rem;
+    line-height: 0.45rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 3px #9b9b9b;
+    font-size: 0.14rem;
+    z-index: 10000;
+}
+
+.active{
+	border-color: red !important;
+}

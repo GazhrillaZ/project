@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="../css/wjj.css"/>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<header class="top_fixed">
+			购物车（0）
+		</header>
+		<section>
+			<div class="empty" style="display: none;">
+				<img src="../img/cartno.png" />
+				<span>
+					购物车空空如也<br />
+					现在去挑几件吧
+				</span>
+				<a href="">立即寻宝</a>
+			</div>
+			<div class="cartable">
+				<div class="itembox" v-for="(item,index) in items">
+					<div class="item">
+						<input class="check" type="checkbox" />
+						<a href="" class="img">
+							<img v-bind:src="item.img"/>
+						</a>
+						<div class="content">
+							<span class="title">{{item.title}}</span>
+							<div class="num">
+								<input type="button" class="minus" id="" value="-" v-on:click="minus(index)"/>
+								<input type="text" class="quantity" name="" id="" v-bind:value="item.num" style="width: 0.5rem;" />
+								<input type="button" class="add" id="" value="+" v-on:click="add(index)"/>
+								<div class="btn">
+									包尾
+								</div>
+							</div>
+							<p class="first">总需{{item.num2}}人次</p>
+							<p class="last">
+								剩余
+								<span>{{item.num3}}</span> 人次
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+
+				<div class="total">
+					<input class="check" type="checkbox" name="" id="" value="" />
+					<span class="choose">全选</span>
+					<p>
+						合计：<span>¥ 100</span>
+					</p>
+					<div class="account">
+						结算（2）
+					</div>
+					<div class="del">
+						删除
+					</div>
+				</div>
+				
+				<div class="nothing" style="display: none;">
+					你还没有选择商品哦
+				</div>
+			</div>
+		</section>
+		<div class="bottom_fixed">
+			<ul>
+				<li>
+					<a href="../index/index.html"><img src="../img/index-grey.png" />
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="../05Forthcoming/Forthcoming.html"><img src="../img/upcoming-grey.png" />
+						<p>即将揭晓</p>
+					</a>
+				</li>
+				<li>
+					<a href="../discover/discover.html"><img src="../img/find-grey.png" />
+						<p>发现</p>
+					</a>
+				</li>
+				<li>
+					<a href=""><img src="../img/cart-light.png" />
+						<p class="bottom_active">购物车</p>
+					</a>
+				</li>
+				<li>
+					<a href="../personal_center/personal_index.html"><img src="../img/person-grey.png" />
+						<p>个人中心</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+	
+	
+
+</html>

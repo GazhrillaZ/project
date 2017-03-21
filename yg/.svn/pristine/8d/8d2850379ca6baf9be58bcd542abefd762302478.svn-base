@@ -1,0 +1,61 @@
+.mywallet_main{
+	width: 100%;
+	height: 1.4rem;
+	margin-top: 0.43rem;
+	padding-top: 0.3rem;
+	background: #fff;
+}
+
+.mywallet_main>img{
+	width: 0.6rem;
+	display:block;
+	margin: auto;
+	margin-bottom: 0.15rem;
+}
+
+.mywallet_main>ul{
+	width: 100%;
+	height: auto;
+}
+
+.mywallet_main>ul>li{
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.mywallet_main>ul>li>p:first-child{
+	font-size: 0.14rem;
+	color: #373737;
+	margin-bottom: 0.1rem;
+}
+
+.mywallet_main>ul>li>p:last-child{
+	font-size: 0.12rem;
+	color:#f2473d;
+}
+
+.mywallet_btn{
+	width: 3rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	margin: auto;
+	margin-top: 0.15rem;
+}
+
+.mywallet_btn>a{
+	width: 1.45rem;
+	height: 100%;
+	background: #f2473d;
+	color: #fff;
+	display: block;
+	float: left;
+	font-size: 0.15rem;
+	border-radius: 0.05rem;
+	text-align: center;
+}
+
+.mywallet_btn>a:last-child{
+	float: right;
+}

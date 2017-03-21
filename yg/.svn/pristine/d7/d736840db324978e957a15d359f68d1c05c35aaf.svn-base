@@ -1,0 +1,34 @@
+.about_detail{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.43rem;
+}
+.about_detail>li{
+	width: 100%;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.15rem;
+    color: #373737;
+    text-indent: 0.15rem;
+}
+
+.about_detail>li>span:last-child{
+	float: right;
+	margin-right: 0.15rem;
+}
+
+.about_detail>li:last-child>a{
+	width: 100%;
+	height: 0.44rem;
+	display: block;
+	color: #373737;
+}
+
+.about_detail>li:last-child>a>img{
+	width: 0.06rem;
+	display: block;
+	margin-top: 0.16rem;
+	float: right;
+	margin-right: 0.15rem;
+}

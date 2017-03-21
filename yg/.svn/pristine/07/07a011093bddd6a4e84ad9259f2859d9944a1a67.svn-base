@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/prizelog.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			中奖记录
+			<a href="personal_index.html" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<ul class="prizelog_list">
+			<li>
+				<div class="prize_left">
+					<img src="../img/phone.png"/>
+				</div>
+				<div class="prize_middle">
+					<p>商品名称：<span>Apple iPhone6s</span></p>
+					<p>期号：32204567</p>
+					<p>本期参与：<span>56</span>人次</p>
+					<p>获奖者：<span>心碎乌托邦</span></p>
+					<p>幸运号码：<span>10000387</span></p>
+					<p>揭晓时间：2016-08-14 </p>
+				</div>
+				<div class="prize_right">
+					
+				</div>
+			</li>
+		</ul>
+		
+		
+	</body>
+</html>
+
+
+

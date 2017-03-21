@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			充值
+			<a href="" class="top_return" onclick="javascript:history.back(-1)"><img src="../img/return.png" /></a>
+		</header>
+		
+		<div class="chargecash">
+			<p>选择充值金额</p>
+			<ul>
+				<li>10元
+					<div class="trangle"></div>
+				</li>
+				<li>20元
+					<div class="trangle"></div>
+				</li>
+				<li>30元
+					<div class="trangle"></div>
+				</li>
+				<li>50元
+					<div class="trangle"></div>
+				</li>
+				<li>100元
+					<div class="trangle"></div>
+				</li>
+				<li>更多金额
+					<div class="trangle"></div>
+				</li>
+			</ul>
+			<ol>
+				<li>选择支付方式</li>
+				<li><img src="../img/airpay.png"/><span>支付宝支付</span><div class="pay_circle"></div></li>
+				<li><img src="../img/wechat.png"/><span>微信支付</span><div class="pay_circle"></div></li>
+				<li><img src="../img/union.png"/><span>银联支付</span><div class="pay_circle"></div></li>
+			</ol>
+			<button><a href="chargeok.html">确认充值</a></button>
+		</div>
+	</body>
+</html>

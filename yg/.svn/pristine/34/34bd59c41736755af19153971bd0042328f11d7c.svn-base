@@ -1,0 +1,115 @@
+.top_fixed>a:last-child{
+	width: 0.6rem;
+	height: 0.15rem;
+	font-size: 0.15rem;
+	display: block;
+	position: absolute;
+	top: 0.14rem;
+	right: 0.1rem;
+	color: #fff;
+	line-height: 0.15rem;
+}
+
+.myscore_main{
+	width: 100%;
+	height: 0.75rem;
+	padding-top: 0.2rem;
+	background: #FFFFFF;
+	margin-top: 0.43rem;
+	border-bottom: 1px solid #f0f0f0;
+	text-align: center;
+	position: relative;
+}
+
+.myscore_main>p:first-child{
+	font-size: 0.12rem;
+	color: #3e3a39;
+}
+
+.myscore_main>p:last-child{
+	font-size: 0.3rem;
+	color: #00a0e9;
+}
+
+.myscore_main>a{
+	width: 0.5rem;
+	height: 0.2rem;
+	position: absolute;
+	right:0.1rem;
+	top: 0.5rem;
+	color: #FFFFFF;
+	background: #f2473d;
+	font-size: 0.1rem;
+	line-height: 0.2rem;
+	display: block;
+	border-radius: 0.05rem;
+}
+
+.myscore_tips{
+	width: 100%;
+	height: 0.35rem;
+	line-height: 0.35rem;
+	background: #fff;
+}
+
+.myscore_tips>img:first-child{
+	width: 0.12rem;
+	display: block;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+
+.myscore_tips>p{
+	width: 2.2rem;
+	height: 100%;
+	float: left;
+	font-size: 0.12rem;
+	color: #14a7eb;
+	text-indent: 0.1rem;
+}
+
+.myscore_tips>img:last-child{
+	width: 0.06rem;
+	display: block;
+	float: right;
+	margin-right: 0.1rem;
+	margin-top: 0.12rem;
+}
+
+.score_log{
+	text-indent: 0.1rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.1rem;
+	font-size: 0.12rem;
+	color: #3e3a39;
+}
+
+.score_logdetail{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.score_logdetail>li{
+	width: 100%;
+	height: 0.3rem;
+	border-bottom: 1px solid #F0F0F0;
+	line-height: 0.3rem;
+	font-size: 0.1rem;
+	color: #666666;
+}
+
+.score_logdetail>li>span{
+	margin-left: 0.35rem;
+}
+
+.score_logdetail>li>span:last-child{
+	color: #f2473d;
+}
+
+.nomore{
+	text-align: center;
+	font-size: 0.1rem;
+	margin-top: 0.2rem;
+	color: #666666;
+}

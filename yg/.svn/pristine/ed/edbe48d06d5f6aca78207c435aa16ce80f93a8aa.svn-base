@@ -1,0 +1,42 @@
+.messagelist{
+	width: 100%;
+	height: auto;
+	margin-top: 0.43rem;
+}
+
+.messagelist>li{
+	width: 100%;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	background: #fff;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.messagelist>li>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.messagelist>li>a>img:first-child{
+	width: 0.2rem;
+	display: block;
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.14rem;
+}
+.messagelist>li>a>span{
+	font-size: 0.12rem;
+	display: block;
+	float: left;
+	margin-left: 0.15rem;
+	color: #333333;
+}
+
+.messagelist>li>a>img:last-child{
+	width: 0.06rem;
+	display: block;
+	float: right;
+	margin-top: 0.165rem;
+	margin-right: 0.15rem;
+}

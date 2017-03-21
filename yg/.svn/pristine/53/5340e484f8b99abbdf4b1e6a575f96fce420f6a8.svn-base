@@ -1,0 +1,71 @@
+.agreement{
+	width: 100%;
+	height: auto;
+	margin-top: 0.43rem;
+}
+.agreement_head{
+	font-size: 0.16rem;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.agreement_part{
+	font-size: 0.115rem;
+	color: #666;
+}
+.agreement_part2{
+	font-size: 0.115rem;
+	color: #000;
+}
+.agreement_red{
+	font-size: 0.115rem;
+	color: #f2473d;
+}
+.agreement_blue{
+	font-size: 0.115rem;
+	color: #4a98ef;
+	width: 100%;
+	text-align: center;
+}
+.agreement_headline{
+	font-size: 0.115rem;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.top_fixed p{
+	font-size: 0.18rem;
+	color: #fff;
+	line-height: 0.43rem;
+	width: 100%;
+	text-align: center;
+}
+.agreement_tu{
+	width: 100%;
+	height: 1.66rem;
+	margin:auto;
+}
+.agreement_tu img{
+	width: 100%;
+	display: block;
+}
+.agreement_invite{
+	width: 3rem;
+	height: 0.4rem;
+	background: #f2473d;
+	margin: auto;
+	border-radius: 0.075rem;
+	margin-top: 0.225rem;
+}
+.agreement_invite_p{
+	font-size: 0.16rem;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #fff;
+}

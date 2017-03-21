@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="css/prodetail.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts1"><img src="img/icon-1.png"/></a>
+			<!--<img src="img/logo.png" class="top_logo"/>-->
+			<span class="top_sorts2">云购代码</span>
+		</header>
+			
+			<div class="pd_main_span_top">
+				
+			</div>
+			
+			<div class="renshu">
+				<div class="yg-rs">
+					<p>商品获奖者本次云购总共参与<span class="yg-span">55</span>人次</p>
+				</div>
+			</div>
+			<div class="ygm-t">
+				<div class="ygm-tt">
+					<p class="tgm-p">2016-03-24 16:28:22.89</p>
+					<div class="ygm-zh">
+						<p class="zh-p">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+					</div>
+					<p class="tgm-p1">2016-03-24 16:28:22.89</p>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+					<div class="ygm-sl">
+						<p class="sl-a">10000076</p>
+						<p>10000168</p>
+						<p>10000329</p>
+						<p>10000329</p>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

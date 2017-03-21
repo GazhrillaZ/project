@@ -1,0 +1,21 @@
+body{
+	background: #fff;
+}
+
+.thanks{
+	width: 100%;
+	height: auto;
+	margin-top: 1.9rem;
+}
+
+.thanks>img{
+	width: 0.49rem;
+	display: block;
+	margin: auto;
+}
+
+.thanks>p{
+	font-size: 0.12rem;
+	color: #666666;
+	text-align: center;
+}

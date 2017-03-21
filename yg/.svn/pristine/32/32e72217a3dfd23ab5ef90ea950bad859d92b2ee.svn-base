@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/classify.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href=""></a>
+			分类
+		</header>
+		<section>
+			<a href="iphone.html">
+				<img src="../img/iphone.png"/>
+				手机平板
+			</a>
+			<a href="">
+				<img src="../img/game.png"/>
+				游戏点卡
+			</a>
+			<a href="">
+				<img src="../img/outdoor.png"/>
+				户外用品
+			</a>
+			<a href="">
+				<img src="../img/computer.png"/>
+				电脑办公
+			</a>
+			<a href="">
+				<img src="../img/digital.png"/>
+				数码影音
+			</a>
+			<a href="">
+				<img src="../img/fashion.png"/>
+				时尚用品
+			</a>
+			<a href="">
+				<img src="../img/new.png"/>
+				每周新品
+			</a>
+			<a href="">
+				<img src="../img/hot.png"/>
+				本周最热
+			</a>
+			<a href="">
+				<img src="../img/other.png"/>
+				其他
+			</a>
+		</section>
+	</body>
+</html>

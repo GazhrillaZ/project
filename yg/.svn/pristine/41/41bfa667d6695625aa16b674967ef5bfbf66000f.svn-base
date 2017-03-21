@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style_tang.css" />
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+
+	<body>
+
+		<div class="index_sign">
+			<div class="sign_light">
+				<p style="font-size: 0.5rem;color:#fff100;margin-bottom: 0.41rem;">+15</p>
+				<img src="../img/flag.png" />
+				<p style="font-size: 0.18rem;color:#fff">已签到<span style="font-size: 0.36rem;
+	color: #fff100;">3</span>天</p>
+				<p style="font-size: 0.14rem;color:#fff">明日连续签到<span style="
+	color: #fff100;">+20积分</span></p>
+			</div>
+		</div>
+
+		<header class="top_fixed">
+			<a href="../classify/classify.html" class="top_sorts"><img src="../img/sorts.png" /></a>
+			<img src="../img/logo.png" class="top_logo" />
+		</header>
+
+		<div class="index_banner">
+			<ul>
+				<li><img src="../img/banner.png" /></li>
+				<li><img src="../img/banner.png" /></li>
+				<li><img src="../img/banner.png" /></li>
+				<li><img src="../img/banner.png" /></li>
+				<li><img src="../img/banner.png" /></li>
+			</ul>
+			<ol>
+				<li class="bannerBtn_active"></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+
+		<div class="index_nav">
+			<ul class="index_clearfix">
+				<li>
+					<a href="../cloud/cloud buy.html"><img src="../img/index_cloud.png" />
+						<p>云购</p>
+					</a>
+				</li>
+				<li>
+					<a href=""><img src="../img/index_show.png" />
+						<p>晒单</p>
+					</a>
+				</li>
+				<li>
+					<a href="../invite/invite.html"><img src="../img/index_message.png" />
+						<p>邀请</p>
+					</a>
+				</li>
+				<li>
+					<a href="../11Integral mall/Mall home/Integral mall.html"><img src="../img/index_score.png" />
+						<p>积分商城</p>
+					</a>
+				</li>
+				<li>
+					<a href="" id="signforit"><img src="../img/index_cloud.png" />
+						<p>签到</p>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
+		<a class="index_noticeBar" href="prize.html">
+			<img src="../img/index_icon.png" /><span id="index_notice">恭喜心碎乌托邦获得iphone</span>
+		</a>
+
+		<div class="index_greyBar">
+
+		</div>
+
+		<div class="index_goodList">
+			<div class="goods_topmenu">
+				<ul id="menulist">
+					<li class="menu_active">人气</li>
+					<li>最新</li>
+					<li>扫单</li>
+					<li>十元</li>
+				</ul>
+			</div>
+			<div class="goods_something">
+				<ul id="goodlists">
+					<li>
+						<a href="../productdetail/productdetail.html">
+							<img src="../img/index_pad.png" />
+							<p class="goods_name">iPad Pro 12.9英寸</p>
+
+							<div class="goods_progress">
+								<div class="progress_left">
+									<p>揭晓进度</p>
+									<div class="progress_bar">
+										<div class="progress_insideBar">
+
+										</div>
+									</div>
+								</div>
+								<div class="progress_right">
+									<img src="../img/index_shop.png" />
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="../productdetail/productdetail.html">
+							<img src="../img/index_pad.png" />
+							<p class="goods_name">iPad Pro 12.9英寸</p>
+
+							<div class="goods_progress">
+								<div class="progress_left">
+									<p>揭晓进度</p>
+									<div class="progress_bar">
+										<div class="progress_insideBar">
+
+										</div>
+									</div>
+								</div>
+								<div class="progress_right">
+									<img src="../img/index_shop.png" />
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="../productdetail/productdetail.html">
+							<img src="../img/index_pad.png" />
+							<p class="goods_name">iPad Pro 12.9英寸</p>
+
+							<div class="goods_progress">
+								<div class="progress_left">
+									<p>揭晓进度</p>
+									<div class="progress_bar">
+										<div class="progress_insideBar">
+
+										</div>
+									</div>
+								</div>
+								<div class="progress_right">
+									<img src="../img/index_shop.png" />
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="../productdetail/productdetail.html">
+							<img src="../img/index_pad.png" />
+							<p class="goods_name">iPad Pro 12.9英寸</p>
+
+							<div class="goods_progress">
+								<div class="progress_left">
+									<p>揭晓进度</p>
+									<div class="progress_bar">
+										<div class="progress_insideBar">
+
+										</div>
+									</div>
+								</div>
+								<div class="progress_right">
+									<img src="../img/index_shop.png" />
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="../productdetail/productdetail.html">
+							<img src="../img/index_pad.png" />
+							<p class="goods_name">iPad Pro 12.9英寸</p>
+
+							<div class="goods_progress">
+								<div class="progress_left">
+									<p>揭晓进度</p>
+									<div class="progress_bar">
+										<div class="progress_insideBar">
+
+										</div>
+									</div>
+								</div>
+								<div class="progress_right">
+									<img src="../img/index_shop.png" />
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="../productdetail/productdetail.html">
+							<img src="../img/index_pad.png" />
+							<p class="goods_name">iPad Pro 12.9英寸</p>
+
+							<div class="goods_progress">
+								<div class="progress_left">
+									<p>揭晓进度</p>
+									<div class="progress_bar">
+										<div class="progress_insideBar">
+
+										</div>
+									</div>
+								</div>
+								<div class="progress_right">
+									<img src="../img/index_shop.png" />
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<div class="blank" style="width: 100%;height: 0.5rem;float: left;">
+
+					</div>
+				</ul>
+			</div>
+
+		</div>
+		<div class="bottom_fixed">
+			<ul>
+				<li>
+					<a href="index.html"><img src="../img/index-light.png" />
+						<p class="bottom_active">首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="../05Forthcoming/Forthcoming.html"><img src="../img/upcoming-grey.png" />
+						<p>即将揭晓</p>
+					</a>
+				</li>
+				<li>
+					<a href="../discover/discover.html"><img src="../img/find-grey.png" />
+						<p>发现</p>
+					</a>
+				</li>
+				<li>
+					<a href="../shopcar/cart.html"><img src="../img/cart-grey.png" />
+						<p>购物车</p>
+					</a>
+				</li>
+				<li>
+					<a href="../personal_center/personal_index.html"><img src="../img/person-grey.png" />
+						<p>个人中心</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script src="../js/banner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

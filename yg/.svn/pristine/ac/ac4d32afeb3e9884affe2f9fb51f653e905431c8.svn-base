@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/service agreement.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="" class="top_sorts"><img src="../img/sorts.png"/></a>
+			<p>邀请反佣金</p>
+		</header>
+		
+		<div class="agreement">
+			<div class="agreement_tu">
+				<img src="../img/邀请好友.png"/>
+			</div>
+			<div class="agreement_invite">
+				<p class="agreement_invite_p">立即邀请</p>
+			</div>
+			<p class="agreement_head">好友邀请规则说明</p>
+			<p class="agreement_headline">一、分享链接</p>
+			<p class="agreement_part">点击[立即邀请]分享至哥哥社交平台；</p>
+			<p class="agreement_headline">二、邀请成功反佣金</p>
+			<p class="agreement_part">A用户通过分享的链接下载注册，并成功在禾米寻宝产生消费，在近一年内，您将获得A用户消费总金额的10%佣金，上不封顶；</p>
+			<p class="agreement_headline">三、佣金提现</p>
+			<p class="agreement_part" style="margin-bottom: 0.675rem;">您获得的佣金将自动计入余额中，在“个人中心-奖励佣金”中查看所获得的佣金，并可申请提现；</p>
+			
+		</div>
+	</body>
+</html>

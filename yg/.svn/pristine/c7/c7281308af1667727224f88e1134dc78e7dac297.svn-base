@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/chargelog.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed top_title">
+			充值记录
+			<a href="personal_index.html" class="top_return"><img src="../img/return.png" /></a>
+		</header>
+		<ul class="log_detail">
+			<li>
+				<p>支付方式：支付宝支付</p>
+				<p>支付时间：2016-01-01</p>
+				<p>支付金额：<span>￥55.00</span></p>
+				<p>支付状态：<span>支付成功</span></p>
+			</li>
+			<li>
+				<p>支付方式：支付宝支付</p>
+				<p>支付时间：2016-01-01</p>
+				<p>支付金额：<span>￥55.00</span></p>
+				<p>支付状态：<span>支付成功</span></p>
+			</li>
+		</ul>
+	</body>
+</html>
+

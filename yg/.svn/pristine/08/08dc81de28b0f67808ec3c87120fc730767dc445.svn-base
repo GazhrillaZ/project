@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/normal.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iphone.css"/>
+		<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<header class="top_fixed">
+			<a href="#" onClick="javascript :history.back(-1);"></a>
+			0元购
+		</header>
+		<section>
+			<div class="list" v-for="(item,index) in items">
+				<a href="">
+					<div class="list_left">
+						<img v-bind:src="item.img"/>
+					</div>
+					<div class="list_mid">
+						<p>{{item.title}}</p>
+						<p>揭晓进度<span class="blue">{{item.percent}}</span></p>
+						<div class="barbox">
+							<div class="bar"></div>
+						</div>
+						<span style="width: 57%;">总需{{item.num1}}人次</span>
+						<span>剩余<span class="blue">{{item.num2}}</span>人次</span>
+					</div>
+					<button>立即购买</button>
+				</a>
+			</div>
+			
+		</section>
+		<script type="text/javascript">
+				var list=new Vue({
+					el:"section",
+					data:{
+						items:[
+						    {img:"../img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"iPad Pro 12.9英寸 32G WIFI版",percent:27,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"iPad Pro 12.9英寸 32G WIFI版",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"iPad Pro 12.9英寸 32G WIFI版",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"iPad Pro 12.9英寸 32G WIFI版",percent:78,num1:9280,num2:306},
+						    {img:"../img/59280272034241.png",title:"Apple iPhone6s 16g颜色随机",percent:78,num1:9280,num2:306},
+						]
+					}
+				})
+		</script>
+	</body>
+</html>
