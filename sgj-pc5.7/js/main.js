@@ -143,13 +143,13 @@ $(document).ready(function() {
 			arr = [2, 2, 2]; //200彩虹币
 			$("#prize").attr("src","img/200c.png");
 		} else if(_index > 30 && _index <= 38) {
-			arr = [3, 3, 3]; //100彩虹币
+			arr = [5, 5, 5]; //100彩虹币
 			$("#prize").attr("src","img/100c.png");
 		} else if(_index > 40 && _index < 44) {
 			arr = [4, 4, 4]; //50块
 			$("#prize").attr("src","img/50.png");
 		} else if(_index > 50 && _index <= 70) {
-			arr = [5, 5, 5]; //+3%加息券
+			arr = [3, 3, 3]; //+3%加息券
 			$("#prize").attr("src","img/up3.png");
 		} else if(_index > 70 && _index <= 78) {
 			arr = []; //20块
