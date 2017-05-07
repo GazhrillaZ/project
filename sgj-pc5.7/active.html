@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+		<title>新手指南</title>
+		<link rel="stylesheet" type="text/css" href="css/active.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.slotmachine.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.slotmachine.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<div class="title">
+					
+				</div>
+				<div class="listt">
+					<img src="img/mashine-H5.png" width="96%"/>
+					<div class="user">
+						<span class="have">
+							我的彩虹币:
+						</span>
+						<span>
+							<!--拥有的彩虹币数量-->
+						</span>
+						<img src="img/my-win.png" height="100%"/>
+					</div>
+					<div class="list">
+						<div class="box" id="c1">
+							<div class="slot slot1"></div>
+							<div class="slot slot2"></div>
+							<div class="slot slot3"></div>
+							<div class="slot slot4"></div>
+							<div class="slot slot5"></div>
+							<div class="slot slot6"></div>
+						</div>
+						<div class="box" id="c2">
+							<div class="slot slot1"></div>
+							<div class="slot slot2"></div>
+							<div class="slot slot3"></div>
+							<div class="slot slot4"></div>
+							<div class="slot slot5"></div>
+							<div class="slot slot6"></div>
+						</div>
+						<div class="box" id="c3">
+							<div class="slot slot1"></div>
+							<div class="slot slot2"></div>
+							<div class="slot slot3"></div>
+							<div class="slot slot4"></div>
+							<div class="slot slot5"></div>
+							<div class="slot slot6"></div>
+						</div>
+					</div>
+					
+					<div class="btn" id="btn">
+						<img id="bar" src="img/bar1.png"/>
+					</div>
+					<div class="hand">
+						<img src="img/hand.png"/>
+					</div>
+				</div>
+				
+				<div class="show">
+					<ul>
+						<li class="lst">
+							<img src="img/prizer1.png"/>
+							<div class="lstim">
+								<img src="img/crown.png"/>
+							</div>
+						</li>
+						<li><img src="img/prizer2.png"/></li>
+						<li><img src="img/prizer3.png"/></li>
+						<li><img src="img/prizer4.png"/></li>
+						<li><img src="img/prizer5.png"/></li>
+						<li><img src="img/prizer6.png"/></li>
+						<li><img src="img/prizer7.png"/></li>
+						<li><img src="img/prizer8.png"/></li>
+					</ul>
+				</div>
+				
+				<div class="rule">
+					<ul id="style-1">
+						<li><img src="img/active-content1.png"/></li>
+						<li><img src="img/active-content2.png"/></li>
+						<li><img src="img/active-content3.png"/></li>
+						<li><img src="img/active-content4.png"/></li>
+						<li><img src="img/active-content5.png"/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="tc">
+			<div class="price">
+				<img src="img/200.png" id="prize"/>
+			</div>
+			<div class="yes">
+				<img src="img/yes.png"/>
+			</div>
+		</div>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</body>
+</html>
